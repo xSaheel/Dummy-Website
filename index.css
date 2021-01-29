@@ -1,0 +1,513 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section1 {
+  background-image: url("thunderstorm.jpg");
+  height: 763px;
+  width: 100%;
+}
+
+body {
+  overflow: scroll-y;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  padding-left: 9rem;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 2rem;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+a:hover,
+.game:hover {
+  color: rgb(192, 116, 182);
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
+}
+
+button {
+  background-color: rgb(62, 67, 87);
+  color: white;
+  width: 9rem;
+  height: 3rem;
+  margin: 1rem 1rem 1rem 0;
+  font-weight: 600;
+  border: 0;
+  border-radius: 0.2rem;
+  box-shadow: 0 15px 10px -10px rgba(54, 54, 54, 0.5);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(99, 103, 121);
+}
+
+.login {
+  margin-top: 1.2rem;
+  margin-left: 2rem;
+}
+
+.cities {
+  background-color: rgba(100, 7, 61, 0.507);
+  margin-left: 5rem;
+  border-radius: 8rem;
+  height: 4rem;
+  margin-top: 0.8rem;
+}
+
+.nav-item {
+  color: #ffffff;
+}
+
+.city {
+  color: #ffffff;
+  padding: 1.3rem;
+}
+
+.hero {
+  position: relative;
+  top: 11rem;
+  margin-left: 10rem;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+h3 {
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+p {
+  margin-top: 2rem;
+  color: rgb(62, 67, 87);
+}
+
+.section2,
+.section4,
+.section5 {
+  height: 550px;
+}
+
+.text-container {
+  width: 50%;
+  height: 550px;
+  float: left;
+  background-color: rgba(51, 0, 51, 0.274);
+}
+
+.container1 {
+  height: 64%;
+  width: 70%;
+  margin: 4.5rem 0 0 8rem;
+  float: left;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 15px 10px -10px rgba(54, 54, 54, 0.5);
+}
+
+.container2 {
+  height: 350px;
+  width: 550px;
+  margin: 4.5rem 0 0 2rem;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 15px 10px -10px rgba(54, 54, 54, 0.5);
+}
+
+.sample-img {
+  height: 13rem;
+  margin-top: 0.7rem;
+  padding-left: 4rem;
+}
+
+.img-text {
+  margin: 2rem 4rem 0 4rem;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+  font-weight: 900;
+  font-size: x-large;
+  color: rgb(62, 67, 87);
+}
+
+h4 {
+  font: italic;
+  font-size: 100%;
+  width: 90%;
+  font-weight: 300;
+  line-height: 1.2;
+  color: rgb(62, 67, 87);
+}
+
+.gallery {
+  margin: 5px;
+  margin-bottom: 5rem;
+  border: 0;
+  float: left;
+  width: 290px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.gallery:hover {
+  margin-top: -10px;
+}
+
+.gallery img {
+  height: 505px;
+  width: 225px;
+}
+
+.desc {
+  padding: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: rgb(62, 67, 87);
+  text-align: center;
+  margin: 3rem;
+}
+
+.section3 p {
+  text-align: center;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.section3 button {
+  position: absolute;
+  left: 45%;
+}
+
+.section4 {
+  margin-top: 8rem;
+}
+
+.container3 {
+  height: 350px;
+  width: 450px;
+  margin: 4.5rem 0 0 6rem;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 15px 10px -10px rgba(54, 54, 54, 0.5);
+}
+
+.container3 img {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  width: 450px;
+}
+
+.section4 .text-container .container2 {
+  margin-left: 8rem;
+}
+
+.section4 .text-container .container2 .header {
+  margin-top: 0;
+}
+
+.container2 h3 {
+  color: rgb(62, 67, 87);
+  margin-top: 1.5rem;
+}
+
+.section4 .text-container .container2 h4 {
+  color: rgba(62, 67, 87, 0.37);
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.section5 {
+  background-color: rgba(51, 0, 51, 0.274);
+  height: 40rem;
+  position: absolute;
+}
+
+.section5 img {
+  float: right;
+  position: relative;
+  bottom: 28rem;
+  right: 10rem;
+}
+
+.container4 {
+  margin-left: 8rem;
+  margin-right: 8rem;
+  height: 450px;
+  width: 77.5%;
+  padding: 2rem 2rem 2rem 3rem;
+  background-color: white;
+  box-shadow: 0 15px 10px -10px rgba(54, 54, 54, 0.5);
+}
+
+.container4 h2 {
+  color: rgb(62, 67, 87);
+  width: 50%;
+  font-size: xx-large;
+  font-weight: 300;
+  margin-top: 5rem;
+}
+
+.container4 button {
+  margin-top: 5rem;
+}
+
+.main-footer {
+  background-color: rgb(100, 7, 61);
+  position: relative;
+  top: 40rem;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  float: inline-end;
+}
+
+.main-footer p {
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+  top: 0.7rem;
+  left: 34rem;
+}
+
+.social {
+  width: 100%;
+  position: relative;
+  top: -4rem;
+}
+
+.fa {
+  padding: 15px;
+  position: relative;
+  top: 2rem;
+  font-size: 30px;
+  color: #ffffff;
+  width: 30px;
+  text-align: center;
+}
+
+@media (max-width: 1370px) {
+  .nav-item,
+  .cities {
+    font-size: 0.8rem;
+  }
+
+  .cities {
+    display: none;
+    background-color: transparent;
+  }
+
+  .container1,
+  .container3,
+  .container4 {
+    margin: 4.5rem 0 0 1rem;
+  }
+
+  .container2 {
+    margin: 4.5rem 0 0 1rem;
+  }
+
+  .gallery {
+    width: 220px;
+    height: 400px;
+  }
+
+  .gallery img {
+    height: 300px;
+    width: 180px;
+    position: relative;
+    right: 0.7rem;
+  }
+
+  .desc {
+    position: relative;
+    bottom: 2rem;
+  }
+
+  .section3 p {
+    display: none;
+  }
+  .section3 button {
+    display: none;
+  }
+
+  .section4 .text-container {
+    width: 100%;
+  }
+
+  .text-container .container3 .sample-img {
+    padding-left: 0;
+    height: 80%;
+    width: 100%;
+  }
+
+  .section5 .container4 {
+    position: relative;
+    top: 60rem;
+    width: 80%;
+  }
+
+  .section5 .container4 h2 {
+    font-size: 1.5rem;
+    width: 40%;
+  }
+
+  .section5 img {
+    position: relative;
+    right: 10rem;
+    top: 32rem;
+    height: 20rem;
+  }
+
+  .container4 {
+    position: fixed;
+  }
+}
+
+@media (max-width: 1024px) {
+  .text-container {
+    width: 100%;
+  }
+
+  .container4 h2 {
+    font-size: large;
+  }
+
+  .section2 .text-container .container2 {
+    margin: 1rem 0 0 1rem;
+    width: 70%;
+  }
+  .section4 .text-container .container2 {
+    margin: 2rem 0 0 1rem;
+    width: 70%;
+  }
+  .section4 .text-container .container3 {
+    margin: 0 0 0 1rem;
+    position: relative;
+    bottom: 3rem;
+    width: 70%;
+  }
+
+  .section5 img {
+    display: none;
+  }
+}
+
+@media (max-width: 966px) {
+  .nav-item {
+    display: none;
+  }
+  .navbar,
+  .hero {
+    padding-left: 1rem;
+    margin-left: 0;
+  }
+
+  .section5 .container4 {
+    position: relative;
+    top: 90rem;
+    width: 60%;
+  }
+  .section5 .container4 h2 {
+    font-size: 1.2rem;
+    width: 40%;
+  }
+}
+
+@media (max-width: 708px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  .hero h3 {
+    font-size: 0.8rem;
+  }
+
+  .login {
+    margin-left: 7rem;
+  }
+
+  .sample-img {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .section4 .text-container .container2 h4 {
+    font-size: 1.5rem;
+  }
+
+  .img-text {
+    margin: 2rem 0 0 0;
+  }
+
+  h4,
+  p {
+    font-size: 0.8rem;
+  }
+
+  .section3 .title {
+    font-size: 1.5rem;
+    position: relative;
+    top: 1rem;
+  }
+
+  .container2 {
+    font-size: 0.8rem;
+  }
+  .section5 .container4 {
+    position: relative;
+    top: 120rem;
+    width: 60%;
+  }
+  .section5 .container4 button {
+    position: relative;
+    top: -2.5rem;
+  }
+  .section5 {
+    background-color: transparent;
+  }
+}
